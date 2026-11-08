@@ -1,26 +1,26 @@
 class Cstop < Formula
   desc "Claude Code session monitor (TUI): sessions, memory, disk usage"
   homepage "https://github.com/gebilaoman/claude-session-monitor"
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/gebilaoman/claude-session-monitor/releases/download/v0.1.2/cstop_0.1.2_darwin_amd64.tar.gz"
-      sha256 "40625c3a105d27598c497084572972bf1e376b792f7634e5fa401c37e8b59569"
+      url "https://github.com/gebilaoman/claude-session-monitor/releases/download/v0.1.3/cstop_0.1.3_darwin_amd64.tar.gz"
+      sha256 "f1c0436ad23cd2a7e0fe131c1ff474bfbaf8dab30002d0378074b138d894ae71"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/gebilaoman/claude-session-monitor/releases/download/v0.1.2/cstop_0.1.2_darwin_arm64.tar.gz"
-      sha256 "32fb586b30c564c1d70ca4a2500aedf4a21d67c8a48e2be3095b477fc4a34606"
+      url "https://github.com/gebilaoman/claude-session-monitor/releases/download/v0.1.3/cstop_0.1.3_darwin_arm64.tar.gz"
+      sha256 "af98459827cfb22092d637815db4af852795dcfbf9b9d5d695f67bc7bb6e57ab"
     end
   end
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/gebilaoman/claude-session-monitor/releases/download/v0.1.2/cstop_0.1.2_linux_amd64.tar.gz"
-      sha256 "2aa9256a8f3bb67635885849de3532c079cd9fe5999cda3f9d91e6844db272ca"
+      url "https://github.com/gebilaoman/claude-session-monitor/releases/download/v0.1.3/cstop_0.1.3_linux_amd64.tar.gz"
+      sha256 "542baa62417c557f1fbce89e5d52ef46866bd049dd5ba840fa27fb862cda4bcb"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/gebilaoman/claude-session-monitor/releases/download/v0.1.2/cstop_0.1.2_linux_arm64.tar.gz"
-      sha256 "f17a8442bfc3f7ff8899ddddf31ec996243e2b6b77a2a4dae844bc9ab56191f4"
+      url "https://github.com/gebilaoman/claude-session-monitor/releases/download/v0.1.3/cstop_0.1.3_linux_arm64.tar.gz"
+      sha256 "d89ad8586fe02575a054e4cfd821fec8534b7ef5c6a47a8e3f25ed44b1666514"
     end
   end
 
